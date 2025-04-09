@@ -43,11 +43,30 @@ Code for Soft Actor Critic Algorithm.
 - Continuous action space (perfect for magnetic field control)
 - Automatic temperature tuning
 
+
+
+# 🤖 Microrobot Navigation using Reinforcement Learning (Soft Actor-Critic)
+
+This project explores autonomous microrobot navigation from one point to another along a **circular path**, under the influence of a **controlled magnetic field**, using **Deep Reinforcement Learning**. It applies the **Soft Actor-Critic (SAC)** algorithm in a **continuous control setting** where:
+
+- 📸 The **state space** is image-based, representing the simulation graph (e.g., robot position on the field).
+- 🌀 The **action space** controls rotation **around and along the axis** via angle **Φ (phi)**—simulating torque or field orientation.
+
 ---
 
-## 🧪 Requirements
+## 📷 Visuals
 
-Install dependencies with:
+### 🧭 Circular Navigation Path  
+![Circular Path](images/circular_path.png)
+
+### 📈 Reward Curve over Training  
+![Reward Curve](images/reward.png)
+
+---
+
+## 🗂️ Project Structure
+
+
 
 ```bash
 pip install -r requirements.txt
