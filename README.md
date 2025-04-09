@@ -57,10 +57,10 @@ This project explores autonomous microrobot navigation from one point to another
 ## 📷 Visuals
 
 ### 🧭 Circular Navigation Path  
-![Circular Path](images/circular_path.png)
+![Circular Path](circular_path.png)
 
 ### 📈 Reward Curve over Training  
-![Reward Curve](images/reward.png)
+![Reward Curve](reward.png)
 
 ---
 
